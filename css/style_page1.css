@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* font-family: 'Press Start 2P', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap'); /* font-family: 'Fredoka One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@600&display=swap'); /* font-family: 'Gluten', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); /* font-family: 'Permanent Marker', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap'); /* font-family: 'Chonburi', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap'); /* font-family: 'Benne', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap'); /* font-family: 'Calligraffitti', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap'); /* font-family: 'Chonburi', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /* font-family: 'Pacifico', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap'); /* font-family: 'Special Elite', cursive; */
+
+#Titre_Page_1 h2 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Special Elite', cursive;
+    color: whitesmoke;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+#bio_clement, #bio_nathan, #bio_guilhem, #bio_romain, #bio_louane, #bio_nina, #bio_bastien {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#bio_clement h3, #bio_nathan h3, #bio_guilhem h3, #bio_romain h3, #bio_louane h3, #bio_nina h3, #bio_bastien h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+#bio_clement h4, #bio_nathan h4, #bio_guilhem h4, #bio_romain h4, #bio_louane h4, #bio_nina h4, #bio_bastien h4 {
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Benne', serif;
+    color: white;
+}
+#bio_clement p, #bio_nathan p, #bio_guilhem p, #bio_romain p, #bio_louane p, #bio_nina p, #bio_bastien p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+#bio_nina {
+    background: #040404 url("../img/bio_yumi.jpg") top right no-repeat;
+    padding: 40px;
+    margin: 40px;
+}
+#bio_clement {
+    background: #040404 url("../img/bio_clem.jpg") top right no-repeat;
+    padding: 40px;
+    margin: 40px;
+}
+
+
+.center {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
