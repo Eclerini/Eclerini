@@ -1,0 +1,125 @@
+#titlePage {
+    text-align: center;
+}
+
+#allEpisodesAndSeasons {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+hr {
+    color: black;
+    opacity: 1;
+}
+
+.hrSeason {
+    max-width: 25%;
+}
+
+.allEpisodes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.episode, .bandeAnnonce {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    color: white;
+    background-color: #B5C4DB;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.bandeAnnonce {
+    margin-bottom: 0%;
+}
+
+.descriptif {
+    padding-right: 2%;
+}
+
+.div-video {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (min-width:450px) {
+    .episode, .bandeAnnonce {
+        flex-direction: row;
+    }
+
+}
+
+/* Pour les tablettes */
+@media screen and (min-width: 768px) {
+    #allEpisodesAndSeasons {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .hrSeason {
+        max-width: 15%;
+    }
+
+    .allEpisodes {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .episode, .bandeAnnonce {
+        flex-direction: column;
+        width: 48%;
+    }
+
+}
+
+
+/* Pour les moniteurs de bureau */
+@media screen and (min-width: 960px) {
+    .hrSeason {
+        max-width: 13%;
+    }
+
+    .episode, .bandeAnnonce {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 49%;
+    }
+    
+    .descriptif {
+        padding-right: 2%;
+    }
+
+}
+
+/* Pour les grands écrans de bureau */
+@media screen and (min-width: 1440px) {
+    .hrSeason {
+        max-width: 9%;
+    }
+
+    .episode, .bandeAnnonce {
+        width: 32%;
+    }
+
+}
+
+/* Pour les très grands écrans de bureau */
+@media screen and (min-width: 1600px) {
+    .hrSeason {
+        max-width: 7%;
+    }
+    
+    .episode {
+        margin-bottom: 3%;
+    }
+    
+    .descriptif {
+        padding-right: 1%;
+    }
+}
