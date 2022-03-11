@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- CSS of the Page -->
+        <link rel="stylesheet" href="../css/header.css">
         <link rel="stylesheet" href="../css/episodes.css">
 
         <!-- Icons -->
@@ -17,7 +18,24 @@
 
     <body>
         <header>
-            
+            <!-- CREATION DE MON MENU -->
+            <nav id="menu">
+                <!-- Création du titre du menu -->
+                <div class="logo">
+                    <a href="../index.html"><strong>ECLÉRINI</strong></a>
+                </div>
+                <!-- Création du bouton pour le menu au format smartphone -->
+                <label for="btn" class="icon">
+                    <span class="fa fa-bars"></span>
+                </label>
+                <input type="checkbox"  id="btn"> 
+                <!-- Création du menu avec les sous-menus -->
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="APropos.html">A propos</a></li>
+                    <li><a href="#" class="active">Episodes</a></li>
+                </ul>
+            </nav>
         </header>
 
         <main>
