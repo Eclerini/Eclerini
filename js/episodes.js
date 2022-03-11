@@ -67,15 +67,15 @@ function addContentOfVideo(divAll, video) {
     const divDescriptif = document.createElement('div')
     divDescriptif.className='descriptif'
 
-    const h4Titre = document.createElement('h4')
+    const h4Titre = document.createElement('h3')
     h4Titre.innerText= video["titre"]
     divDescriptif.append(h4Titre)
 
-    const h5SousTitre = document.createElement('h5')
+    const h5SousTitre = document.createElement('h4')
     h5SousTitre.innerText = video["sousTitre"]
     divDescriptif.append(h5SousTitre)
 
-    const h6Descrip = document.createElement('h6')
+    const h6Descrip = document.createElement('h5')
     h6Descrip.innerText = video["descriptif"]
     divDescriptif.append(h6Descrip)
 
