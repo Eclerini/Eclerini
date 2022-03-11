@@ -22,7 +22,7 @@ nav:after {
     display: table;
 }
 /* Différentes caractéristiques du Titre de mon menu */
-nav, .logo, a {
+nav .logo a {
     float: left;
     color: var(--ecriture);
     font-size: 27px;
