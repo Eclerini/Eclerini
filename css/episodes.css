@@ -102,7 +102,6 @@ hr {
         flex-direction: row;
         justify-content: space-between;
         width: 400px;
-        height: 325px;
     }
     
     .descriptif {
@@ -118,7 +117,8 @@ hr {
     }
 
     .episode, .bandeAnnonce {
-        width: 30%;
+        width: 45%;
+        height: 200px;
     }
 
 }
@@ -134,7 +134,8 @@ hr {
     }
     
     .episode, .bandeAnnonce {
-        /* width: 21%; */
+        width: 30%;
+        height: 250px;
     }
 
     .descriptif {
