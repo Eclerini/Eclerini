@@ -15,6 +15,12 @@
                 "sousTitre" : "Point de vue des Français",
                 "descriptif": "Les premiers interviews d'étudiants français expliquant les idées qu'ils se font des écoles américaines",
                 "lienVideo": "https://www.youtube.com/embed/St0Nba_aWZY"
+            },
+            {
+                "titre": "Episode 2",
+                "sousTitre": "Réponse des Américains",
+                "descriptif": "Vidéo en travaux",
+                "lienVideo": ""
             }
         ]
     }
