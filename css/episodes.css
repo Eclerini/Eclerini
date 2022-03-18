@@ -134,7 +134,7 @@ hr {
     }
     
     .episode, .bandeAnnonce {
-        width: 21%;
+        /* width: 21%; */
     }
 
     .descriptif {
