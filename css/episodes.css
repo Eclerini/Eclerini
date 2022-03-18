@@ -39,8 +39,9 @@ hr {
     background-color: #B5C4DB;
     border-radius: 15px;
     margin-bottom: 5%;
-    width: 100%;
-    justify-content: space-between;
+    height: 325px;
+    width: 330px;
+    justify-content: space-around;
 }
 
 .bandeAnnonce {
@@ -59,7 +60,8 @@ hr {
 
 @media screen and (min-width:450px) {
     .episode, .bandeAnnonce {
-        flex-direction: row;
+        width: 100%;
+        height: auto;
     }
 
 }
@@ -83,7 +85,8 @@ hr {
 
     .episode, .bandeAnnonce {
         flex-direction: column;
-        width: 48%;
+        width: 300px;
+        height: 325px;
     }
 
 }
@@ -98,7 +101,8 @@ hr {
     .episode, .bandeAnnonce {
         flex-direction: row;
         justify-content: space-between;
-        width: 49%;
+        width: 400px;
+        height: 325px;
     }
     
     .descriptif {
@@ -114,7 +118,7 @@ hr {
     }
 
     .episode, .bandeAnnonce {
-        width: 32%;
+        width: 30%;
     }
 
 }
@@ -129,6 +133,10 @@ hr {
         margin-bottom: 3%;
     }
     
+    .episode, .bandeAnnonce {
+        width: 21%;
+    }
+
     .descriptif {
         padding-right: 1%;
     }
