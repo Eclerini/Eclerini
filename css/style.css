@@ -32,7 +32,7 @@ html::-webkit-scrollbar {
     width: 1rem;
 }
 html::-webkit-scrollbar-track {
-    background: transparent;
+    background: #4399D4;
 }
 html::-webkit-scrollbar-thumb {
     background: green;
@@ -130,7 +130,7 @@ section {
 }
 .accueil .description {
     text-align: center;
-    margin-top: 30vh;
+    margin-top: 25vh;
     width: 80%;
     max-width: 1000px;
     margin-left: auto;
@@ -156,14 +156,14 @@ section {
     .accueil h1 {font-size: 9.5vh;}
     .accueil .menu {margin-top: 25vh;}
     .accueil .menu a {font-size: 8vh;}
-    .accueil .description {margin-top: 27vh;}
+    .accueil .description {margin-top: 25vh;}
     .accueil .description p {font-size: 2.6vh;}
 }
 @media screen and (min-width:800px) and (max-width:950px) {
     .accueil h1 {font-size: 7.5vh;}
     .accueil .menu {margin-top: 25vh;}
     .accueil .menu a {font-size: 7vh;}
-    .accueil .description {margin-top: 27vh;}
+    .accueil .description {margin-top: 25vh;}
     .accueil .description p {font-size: 2.1vh;}
 }
 @media screen and (min-width:400px) and (max-width:950px) {
@@ -171,7 +171,7 @@ section {
     .accueil .menu {margin-top: 20vh;}
     .accueil .menu span {color: transparent;}
     .accueil .menu a {font-size: 6vh;}
-    .accueil .description {margin-top: 18vh; width: 90%;}
+    .accueil .description {margin-top: 15vh; width: 90%;}
     .accueil .description p {font-size: 2.1vh;}
 }
 
@@ -375,7 +375,5 @@ nav ul ul ul li {
         content: '\f00d';
     }
 }
-
-
 
 

@@ -39,9 +39,8 @@ hr {
     background-color: #B5C4DB;
     border-radius: 15px;
     margin-bottom: 5%;
-    height: 325px;
-    width: 330px;
-    justify-content: space-around;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .bandeAnnonce {
@@ -60,8 +59,7 @@ hr {
 
 @media screen and (min-width:450px) {
     .episode, .bandeAnnonce {
-        width: 100%;
-        height: auto;
+        flex-direction: row;
     }
 
 }
@@ -85,8 +83,7 @@ hr {
 
     .episode, .bandeAnnonce {
         flex-direction: column;
-        width: 300px;
-        height: 325px;
+        width: 48%;
     }
 
 }
@@ -101,7 +98,7 @@ hr {
     .episode, .bandeAnnonce {
         flex-direction: row;
         justify-content: space-between;
-        width: 400px;
+        width: 49%;
     }
     
     .descriptif {
@@ -117,8 +114,7 @@ hr {
     }
 
     .episode, .bandeAnnonce {
-        width: 45%;
-        height: 200px;
+        width: 32%;
     }
 
 }
@@ -133,12 +129,66 @@ hr {
         margin-bottom: 3%;
     }
     
-    .episode, .bandeAnnonce {
-        width: 30%;
-        height: 250px;
-    }
-
     .descriptif {
         padding-right: 1%;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MISE EN PAGE DU TITRE DE LA PAGE */
+#titre_page {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 250px;
+    align-items: center;
+    margin-top: 56px;
+    background-image: url("https://cdn.pixabay.com/photo/2014/07/08/10/47/team-386673_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#titre_page .titre {
+    font-family: 'Lemonada', cursive;
+    text-align: center;
+    font-size: 200px;
+	font-weight: 500;
+    color: #B5C4DB;
+}
+/* Mise en forme pour écran < 450px */
+@media screen and (max-width: 450px) {
+    #titre_page {grid-template-rows: 250px;}
+    #titre_page .titre {font-size: 55px;}
+}
+/* Mise en forme pour écran entre 450 px et 700px */
+@media screen and (min-width: 450px) and (max-width: 700px) {
+    #titre_page {grid-template-rows: 250px;}
+    #titre_page .titre {font-size: 60px;}
+}
+/* Mise en forme pour écran entre 700 px et 950 px */
+@media screen and (min-width: 700px) and (max-width: 950px) {
+    #titre_page {grid-template-rows: 250px;}
+    #titre_page .titre {font-size: 70px;}
+}
+/* Mise en forme pour écran entre 950 px et 1200px  */
+@media screen and (min-width: 950px) and (max-width: 1200px) {
+    #titre_page {grid-template-rows: 250px;}
+    #titre_page .titre {font-size: 83px;}
+}
+/* Mise en forme pour écran entre 1200 px et 1600px  */
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    #titre_page {grid-template-rows: 250px;}
+    #titre_page .titre {font-size: 100px;}
+}
+/* Mise en forme pour écran supérieur à 1600px */
+@media screen and (min-width: 1600px) {
+    #titre_page {grid-template-rows: 300px;}
+    #titre_page .titre {font-size: 110px;}
 }

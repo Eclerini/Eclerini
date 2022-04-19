@@ -1,0 +1,47 @@
+/* ----------------------------------------------------------------- */
+/* -------------------- MISE EN FORME DU FOOTER -------------------- */
+/* ----------------------------------------------------------------- */
+footer {
+    position: sticky;
+    background: #4399D4;
+    padding: 10px 40px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .social_icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    color: white;
+    padding: 0;
+    list-style: none;
+}
+footer .social_icon li a {
+    font-size: 20px;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social_icon li a:hover {
+    transform: translateY(-10px);
+    color: #FFEA00;
+}
+footer p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 470px) {
+    footer p {font-size: 13px;}
+}

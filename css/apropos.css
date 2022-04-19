@@ -1,0 +1,150 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #040404;
+    color: #fff;
+    position: relative;
+    background: linear-gradient(rgba(17, 17, 17, 0.3), rgba(17, 17, 17, 0.3)), url(../img/fond_apropos.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* MISE EN PAGE DU TITRE DE LA PAGE */
+#titre_page {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 250px;
+    align-items: center;
+    margin-top: 56px;
+    background-image: url("https://cdn.pixabay.com/photo/2014/07/08/10/47/team-386673_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#titre_page .titre {
+    font-family: 'Lemonada', cursive;
+    text-align: center;
+    font-size: 200px;
+	font-weight: 500;
+    color: #B5C4DB;
+}
+/* Mise en forme pour écran < 450px */
+@media screen and (max-width: 450px) {
+    #titre_page {grid-template-rows: 250px;}
+    #titre_page .titre {font-size: 55px;}
+}
+/* Mise en forme pour écran entre 450 px et 700px */
+@media screen and (min-width: 450px) and (max-width: 700px) {
+    #titre_page {grid-template-rows: 250px;}
+    #titre_page .titre {font-size: 60px;}
+}
+/* Mise en forme pour écran entre 700 px et 950 px */
+@media screen and (min-width: 700px) and (max-width: 950px) {
+    #titre_page {grid-template-rows: 250px;}
+    #titre_page .titre {font-size: 70px;}
+}
+/* Mise en forme pour écran entre 950 px et 1200px  */
+@media screen and (min-width: 950px) and (max-width: 1200px) {
+    #titre_page {grid-template-rows: 250px;}
+    #titre_page .titre {font-size: 83px;}
+}
+/* Mise en forme pour écran entre 1200 px et 1600px  */
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    #titre_page {grid-template-rows: 250px;}
+    #titre_page .titre {font-size: 100px;}
+}
+/* Mise en forme pour écran supérieur à 1600px */
+@media screen and (min-width: 1600px) {
+    #titre_page {grid-template-rows: 300px;}
+    #titre_page .titre {font-size: 110px;}
+}
+
+
+/* ------------------------------------------------------------------- */
+
+/* MISE EN PAGE DE DIFFERENTS ETUDIANTS */
+#nous_1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+#nous_2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+#nous_1 .nous_pers1, #nous_1 .nous_pers2,
+#nous_2 .nous_pers1, #nous_2 .nous_pers2, #nous_2 .nous_pers3 {
+    grid-column: 1 / -1;
+    background: transparent;
+    color: #fff;
+    padding: 20px;
+}
+#nous_1 .titre_n1,
+#nous_2 .titre_n1 {
+    font-family: 'Odor Mean Chey', serif;
+    font-size: 60px;
+    line-height: 15%;
+    opacity: 5px;
+    color: #F2CF6C;
+    padding-top: 10px;
+}
+#nous_1 .titre_n2,
+#nous_2 .titre_n2 {
+    font-family: 'Odor Mean Chey', serif;
+    font-size: 45px;
+    line-height: 40%;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin: 0;
+    color: #fff;
+}
+#nous_1 p,
+#nous_2 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-left: 30px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+/* Mise en forme pour écran < 450px */
+@media screen and (max-width: 450px) {
+    #nous_1 .titre_n1, #nous_2 .titre_n1 {font-size: 30px;}
+    #nous_1 .titre_n2, #nous_2 .titre_n2 {font-size: 22px;}
+    #nous_1 p, #nous_2 p {font-size: 18px;}
+}
+/* Mise en forme pour écran entre 450 px et 700px */
+@media screen and (min-width: 450px) and (max-width: 700px) {
+    #nous_1 .titre_n1, #nous_2 .titre_n1 {font-size: 40px;}
+    #nous_1 .titre_n2, #nous_2 .titre_n2 {font-size: 32px;}
+    #nous_1 p, #nous_2 p {font-size: 24px;}
+}
+/* Mise en forme pour écran entre 700 px et 1200px  */
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+    #nous_1 .titre_n1, #nous_2 .titre_n1 {font-size: 35px; padding-top: 20px;}
+    #nous_1 .titre_n2, #nous_2 .titre_n2 {font-size: 30px;}
+    #nous_1 p, #nous_2 p {font-size: 20px;}
+}
+/* Mise en forme pour écran entre 900 px et 1200px  */
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    #nous_1 {grid-template-columns: repeat(2, 50% 50%);}
+    #nous_2 {grid-template-columns: repeat(3, 33.333% 33.333% 33.333%);}
+    #nous_1 .nous_pers1, #nous_1 .nous_pers2, #nous_2 .nous_pers1, #nous_2 .nous_pers2, #nous_2. nous_pers3 {grid-column: span 1;}
+}
+/* Mise en forme pour écran entre 1200 px et 1600px  */
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    #nous_1 {grid-template-columns: repeat(2, 50% 50%);}
+    #nous_2 {grid-template-columns: repeat(3, 33.333% 33.333% 33.333%);}
+    #nous_1 .nous_pers1, #nous_1 .nous_pers2, #nous_2 .nous_pers1, #nous_2 .nous_pers2, #nous_2 .nous_pers3 {grid-column: span 1;}
+    #nous_1 .titre_n1, #nous_2 .titre_n1 {font-size: 40px;}
+    #nous_1 .titre_n2, #nous_2 .titre_n2 {font-size: 32px;}
+    #nous_1 p, #nous_2 p {font-size: 24px;}
+}
+/* Mise en forme pour écran supérieur à 1600px */
+@media screen and (min-width: 1600px) {
+    #nous_1 {grid-template-columns: repeat(2, 50% 50%);}
+    #nous_2 {grid-template-columns: repeat(3, 33.333% 33.333% 33.333%);}
+    #nous_1 .nous_pers1, #nous_1 .nous_pers2, #nous_2 .nous_pers1, #nous_2 .nous_pers2, #nous_2 .nous_pers3 {grid-column: span 1;}
+    #nous_1 .titre_n1, #nous_2 .titre_n1 {font-size: 60px; padding-top: 20px;}
+    #nous_1 .titre_n2, #nous_2 .titre_n2 {font-size: 45px;}
+    #nous_1 p, #nous_2 p {font-size: 36px;}
+}
