@@ -40,6 +40,8 @@ nav ul {
     margin-right: 40px;
     list-style: none;
     position: relative;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 nav ul li {
    float: left;
